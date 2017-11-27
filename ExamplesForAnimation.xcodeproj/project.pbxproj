@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		317078C41FCC2A8600B1589C /* XCAnimationGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317078C31FCC2A8600B1589C /* XCAnimationGroupController.m */; };
 		566793711FC664B1007B977F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 566793701FC664B1007B977F /* AppDelegate.m */; };
 		566793741FC664B1007B977F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566793731FC664B1007B977F /* ViewController.m */; };
 		566793771FC664B1007B977F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566793751FC664B1007B977F /* Main.storyboard */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		317078C21FCC2A8600B1589C /* XCAnimationGroupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCAnimationGroupController.h; sourceTree = "<group>"; };
+		317078C31FCC2A8600B1589C /* XCAnimationGroupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCAnimationGroupController.m; sourceTree = "<group>"; };
 		5667936C1FC664B1007B977F /* ExamplesForAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamplesForAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5667936F1FC664B1007B977F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		566793701FC664B1007B977F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				5667938F1FC6670C007B977F /* XCTransitionViewController.m */,
 				566793911FC66727007B977F /* XCSpringAnimationController.h */,
 				566793921FC66727007B977F /* XCSpringAnimationController.m */,
+				317078C21FCC2A8600B1589C /* XCAnimationGroupController.h */,
+				317078C31FCC2A8600B1589C /* XCAnimationGroupController.m */,
 			);
 			name = BasicSampleDemos;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				5667939A1FC668AA007B977F /* XCWaterWaveViewController.m in Sources */,
 				566793901FC6670C007B977F /* XCTransitionViewController.m in Sources */,
 				566793711FC664B1007B977F /* AppDelegate.m in Sources */,
+				317078C41FCC2A8600B1589C /* XCAnimationGroupController.m in Sources */,
 				566793971FC66892007B977F /* XCDrawLineAnimationController.m in Sources */,
 				5667939D1FC668BF007B977F /* XCFireAnimationController.m in Sources */,
 			);

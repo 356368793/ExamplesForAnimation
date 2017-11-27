@@ -25,7 +25,8 @@
                         @{@"className": @"XCBasicAnimationController", @"title": @"CABasicAnimation基础动画"},
                         @{@"className": @"XCKeyframeAnimationController", @"title": @"CAKeyframeAnimation基础动画"},
                         @{@"className": @"XCTransitionViewController", @"title": @"CATransition转场动画"},
-                        @{@"className": @"XCSpringAnimationController", @"title": @"CASpringAnimation弹簧动画"}
+                        @{@"className": @"XCSpringAnimationController", @"title": @"CASpringAnimation弹簧动画"},
+                        @{@"className": @"XCAnimationGroupController", @"title": @"CAAnimationGroup组动画"}
                         ],
                     @[
                         @{@"className": @"XCDrawLineAnimationController", @"title": @"画线动画"},
