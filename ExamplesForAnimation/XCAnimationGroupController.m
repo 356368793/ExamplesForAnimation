@@ -44,10 +44,15 @@
     CABasicAnimation *cornerRadius = [CABasicAnimation animationWithKeyPath:@"cornerRadius"];
     cornerRadius.toValue = @(35);
     
+    // opacity
+    CABasicAnimation *opacity = [CABasicAnimation animationWithKeyPath:@"opacity"];
+    opacity.fromValue = @(0);
+    opacity.toValue = @(1);
+    
     animationGroup.duration = 4;
     animationGroup.removedOnCompletion = NO;
     animationGroup.repeatCount = HUGE_VALF;
-    animationGroup.animations = @[keyframeAnimation, rotationZ, cornerRadius];
+    animationGroup.animations = @[keyframeAnimation, rotationZ, cornerRadius, opacity];
     
     [_redView.layer addAnimation:animationGroup forKey:@"animationGroup"];
 }
