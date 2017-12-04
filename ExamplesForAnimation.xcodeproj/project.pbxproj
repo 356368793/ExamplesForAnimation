@@ -27,6 +27,7 @@
 		566793A51FC69DDF007B977F /* DazFire.png in Sources */ = {isa = PBXBuildFile; fileRef = 5667939F1FC67CC0007B977F /* DazFire.png */; };
 		566793A61FC69DDF007B977F /* from.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 566793A11FC67CC8007B977F /* from.jpg */; };
 		566793A71FC69DDF007B977F /* to.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 566793A31FC67CCF007B977F /* to.jpg */; };
+		5676182C1FD4E6FD0069CAF2 /* XCWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5676182B1FD4E6FD0069CAF2 /* XCWaterWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,8 @@
 		5667939F1FC67CC0007B977F /* DazFire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazFire.png; sourceTree = "<group>"; };
 		566793A11FC67CC8007B977F /* from.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = from.jpg; sourceTree = "<group>"; };
 		566793A31FC67CCF007B977F /* to.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = to.jpg; sourceTree = "<group>"; };
+		5676182A1FD4E6FD0069CAF2 /* XCWaterWaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCWaterWaveView.h; sourceTree = "<group>"; };
+		5676182B1FD4E6FD0069CAF2 /* XCWaterWaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCWaterWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 				566793961FC66892007B977F /* XCDrawLineAnimationController.m */,
 				566793981FC668AA007B977F /* XCWaterWaveViewController.h */,
 				566793991FC668AA007B977F /* XCWaterWaveViewController.m */,
+				5676182A1FD4E6FD0069CAF2 /* XCWaterWaveView.h */,
+				5676182B1FD4E6FD0069CAF2 /* XCWaterWaveView.m */,
 				5667939B1FC668BF007B977F /* XCFireAnimationController.h */,
 				5667939C1FC668BF007B977F /* XCFireAnimationController.m */,
 			);
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5676182C1FD4E6FD0069CAF2 /* XCWaterWaveView.m in Sources */,
 				566793A51FC69DDF007B977F /* DazFire.png in Sources */,
 				566793A61FC69DDF007B977F /* from.jpg in Sources */,
 				566793A71FC69DDF007B977F /* to.jpg in Sources */,
